@@ -2280,12 +2280,12 @@ class Constants(object):
     """
 
     def __init__(self, localeID=None, usePyICU=True,
-                 fallbackLocales=['en_US']):
+                 fallbackLocales=['tr_TR']):
         self.localeID = localeID
         self.fallbackLocales = fallbackLocales[:]
 
-        if 'en_US' not in self.fallbackLocales:
-            self.fallbackLocales.append('en_US')
+        if 'tr_TR' not in self.fallbackLocales:
+            self.fallbackLocales.append('tr_TR')
 
         # define non-locale specific constants
         self.locale = None
